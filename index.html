@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="favicon" href="img/logo(1).png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.min.css">
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="logo"><img src="img/logo(1).png" alt=""></a>
+        </div>
+        <input type="checkbox" name="" id="nav_check" hidden>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="" class="logo"><img src="img/logo(1).png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="dn.html">Tài khoản</a></li>
+                <li><a href="">Giỏ hàng</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" class="search-box__input">
+            <input type="checkbox" name="" id="">
+            <button type="submit" class="search-box__btn"><i class="fas fa-search"></i></button>
+        </div>
+        <label for="nav_check" class="hamburger">
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+        </label>
+    </header>
+    <main>
+        <section id="Slider">
+            <div class="slider-container">
+                <img src="img/sl1.webp" alt="" id="hinh">
+                <div class="chuyen">
+                    <i class="fa-solid fa-angle-left" onclick="prev()"></i>
+                    <i class="fa-solid fa-angle-right" onclick="next()"></i>
+                </div>
+            </div>
+        </section>
+        <section id="listLoaiSP">
+            <h1 style="text-align: center; padding: 20px 0;">Loại sản phẩm</h1>
+            <div id="data"></div>
+        </section>
+        <section id="listSP">
+            <h1 style="text-align: center; padding: 20px 0;">Sản phẩm</h1>
+            <div id="data"></div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+
+                <div class="footer-col">
+                    <h4>Về chúng tôi</h4>
+                    <p>Chúng tôi là nơi bán hàng chất lượng để bạn có thể an tâm khi mua hàng của chúng tôi.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Main menu</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Trang chủ</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Giới thiệu</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Liên hệ</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Dịch vụ</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Sản phẩm</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Chính sách</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Chính sách bảo hành</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Chính sách mua hàng</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Chính sách bảo mật riêng tư</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Chính sách khuyến mãi</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Chính sách vận chuyển</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Liên hệ với chúng tôi</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Bình Nghĩa, Bình Tân, Bắc Bình, Bình
+                                Thuận</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i>0858135504</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i>huysmtps32526@fpt.edu.vn</a></li>
+                        <li><a href="#"><i class="fa-solid fa-earth-americas"></i>www.hwyystore.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy">
+                <p>&copy; 2020 all rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script type="module">
+    import { showlisttrangsuc, showlistloaisp } from './js/app.js';
+    document.querySelector("#listSP #data").innerHTML = showlisttrangsuc();
+    document.querySelector("#listLoaiSP #data").innerHTML = await showlistloaisp();
+</script>
