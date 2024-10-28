@@ -1,267 +1,328 @@
 {
-    "loai": [
-        {
-            "maLoai": "1",
-            "tenLoai": "Nhẫn"
-        },
-        {
-            "maLoai": "2",
-            "tenLoai": "Vòng tay"
-        },
-        {
-            "maLoai": "3",
-            "tenLoai": "Khuyên tai"
-        },
-        {
-            "maLoai": "4",
-            "tenLoai": "Dây chuyền"
-        }
-    ],
-    "sp": [
-        {
-            "masp": "kt01",
-            "ten": "Cross 02",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt01.webp"
-        },
-        {
-            "masp": "kt02",
-            "ten": "Skull",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt02.webp"
-        },
-        {
-            "masp": "kt03",
-            "ten": "Rose",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt03.webp"
-        },
-        {
-            "masp": "kt04",
-            "ten": "Celics",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt04.webp"
-        },
-        {
-            "masp": "kt05",
-            "ten": "Wings",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt05.webp"
-        },
-        {
-            "masp": "kt06",
-            "ten": "Thập tự",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt06.webp"
-        },
-        {
-            "masp": "kt07",
-            "ten": "Star",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt07.webp"
-        },
-        {
-            "masp": "kt08",
-            "ten": "Roman numerals",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt08.webp"
-        },
-        {
-            "masp": "kt09",
-            "ten": "Macix",
-            "gia": 95000,
-            "maLoai": "3",
-            "hinh": "img/kt09.webp"
-        },
-        {
-            "masp": "n01",
-            "ten": "Waves Ring",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n01.webp"
-        },
-        {
-            "masp": "n02",
-            "ten": "The Harmony",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n02.webp"
-        },
-        {
-            "masp": "n03",
-            "ten": "The Eternal Ring",
-            "gia": 145000,
-            "mamaLoai": "1",
-            "hinh": "img/n03.webp"
-        },
-        {
-            "masp": "n04",
-            "ten": "God Eyes",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n04.webp"
-        },
-        {
-            "masp": "n05",
-            "ten": "Tienar Ring",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n05.webp"
-        },
-        {
-            "masp": "n06",
-            "ten": "Nhẫn Đơn",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n06.webp"
-        },
-        {
-            "masp": "n07",
-            "ten": "Li Yu",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n07.webp"
-        },
-        {
-            "masp": "n08",
-            "ten": "The Lava",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n08.webp"
-        },
-        {
-            "masp": "n09",
-            "ten": "Nhẫn cánh dơi",
-            "gia": 145000,
-            "maLoai": "1",
-            "hinh": "img/n09.webp"
-        },
-        {
-            "masp": "vt01",
-            "ten": "Bộ vòng tay Bamboo ver 2",
-            "gia": 195000,
-            "maLoai": "2",
-            "hinh": "img/vt01.webp"
-        },
-        {
-            "masp": "vt02",
-            "ten": "The Ciion",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt02.webp"
-        },
-        {
-            "masp": "vt03",
-            "ten": "The Geteus",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt03.webp"
-        },
-        {
-            "masp": "vt04",
-            "ten": "Stone Ver.2",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt04.webp"
-        },
-        {
-            "masp": "vt05",
-            "ten": "The Elegant Chain",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt05.webp"
-        },
-        {
-            "masp": "vt06",
-            "ten": "The Old School Cross",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt06.webp"
-        },
-        {
-            "masp": "vt07",
-            "ten": "The Fadro Charm",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt07.webp"
-        },
-        {
-            "masp": "vt08",
-            "ten": "The Gil",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt08.webp"
-        },
-        {
-            "masp": "vt09",
-            "ten": "The Cross",
-            "gia": 245000,
-            "maLoai": "2",
-            "hinh": "img/vt09.webp"
-        },
-        {
-            "masp": "dc01",
-            "ten": "Osdis Chain",
-            "gia": 245000,
-            "maLoai": "4",
-            "hinh": "img/dc01.webp"
-        },
-        {
-            "masp": "dc02",
-            "ten": "Elements Necklace",
-            "gia": 245000,
-            "maLoai": "4",
-            "hinh": "img/dc02.webp"
-        },
-        {
-            "masp": "dc03",
-            "ten": "Dây chuyền nhẫn kép",
-            "gia": 185000,
-            "maLoai": "4",
-            "hinh": "img/dc03.webp"
-        },
-        {
-            "masp": "dc04",
-            "ten": "Spirial",
-            "gia": 185000,
-            "maLoai": "4",
-            "hinh": "img/dc04.webp"
-        },
-        {
-            "masp": "dc05",
-            "ten": "Guitar",
-            "gia": 185000,
-            "maLoai": "4",
-            "hinh": "img/dc05.webp"
-        },
-        {
-            "masp": "dc06",
-            "ten": "Hetas",
-            "gia": 225000,
-            "maLoai": "4",
-            "hinh": "img/dc06.webp"
-        },
-        {
-            "masp": "dc07",
-            "ten": "Cuban Mixx",
-            "gia": 195000,
-            "maLoai": "Dây chuyền",
-            "hinh": "img/dc07.webp"
-        },
-        {
-            "masp": "dc08",
-            "ten": "Bộ dây chuyền Moon and Sun",
-            "gia": 345000,
-            "maLoai": "Dây chuyền",
-            "hinh": "img/dc08.webp"
-        }
-    ]
+  "user": [
+    {
+      "id": "1",
+      "username": "huysmt",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "cart": [
+    {
+      "id": "6ac8",
+      "masp": "kt02",
+      "ten": "Skull",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt02.webp"
+    }
+  ],
+  "loai": [
+    {
+      "maLoai": "1",
+      "tenLoai": "Nhẫn",
+      "id": "6c16"
+    },
+    {
+      "maLoai": "2",
+      "tenLoai": "Vòng tay",
+      "id": "e2fb"
+    },
+    {
+      "maLoai": "3",
+      "tenLoai": "Khuyên tai",
+      "id": "be8e"
+    },
+    {
+      "maLoai": "4",
+      "tenLoai": "Dây chuyền",
+      "id": "3ad9"
+    }
+  ],
+  "sp": [
+    {
+      "masp": "kt01",
+      "ten": "Cross 02",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt01.webp",
+      "id": "4a0f"
+    },
+    {
+      "masp": "kt02",
+      "ten": "Skull",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt02.webp",
+      "id": "6ac8"
+    },
+    {
+      "masp": "kt03",
+      "ten": "Rose",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt03.webp",
+      "id": "b596"
+    },
+    {
+      "masp": "kt04",
+      "ten": "Celics",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt04.webp",
+      "id": "874d"
+    },
+    {
+      "masp": "kt05",
+      "ten": "Wings",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt05.webp",
+      "id": "a8a3"
+    },
+    {
+      "masp": "kt06",
+      "ten": "Thập tự",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt06.webp",
+      "id": "8293"
+    },
+    {
+      "masp": "kt07",
+      "ten": "Star",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt07.webp",
+      "id": "9270"
+    },
+    {
+      "masp": "kt08",
+      "ten": "Roman numerals",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt08.webp",
+      "id": "b40a"
+    },
+    {
+      "masp": "kt09",
+      "ten": "Macix",
+      "gia": 95000,
+      "maLoai": "3",
+      "hinh": "img/kt09.webp",
+      "id": "de93"
+    },
+    {
+      "masp": "n01",
+      "ten": "Waves Ring",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n01.webp",
+      "id": "6844"
+    },
+    {
+      "masp": "n02",
+      "ten": "The Harmony",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n02.webp",
+      "id": "c19a"
+    },
+    {
+      "masp": "n03",
+      "ten": "The Eternal Ring",
+      "gia": 145000,
+      "mamaLoai": "1",
+      "hinh": "img/n03.webp",
+      "id": "dd63"
+    },
+    {
+      "masp": "n04",
+      "ten": "God Eyes",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n04.webp",
+      "id": "544f"
+    },
+    {
+      "masp": "n05",
+      "ten": "Tienar Ring",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n05.webp",
+      "id": "a1bb"
+    },
+    {
+      "masp": "n06",
+      "ten": "Nhẫn Đơn",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n06.webp",
+      "id": "d179"
+    },
+    {
+      "masp": "n07",
+      "ten": "Li Yu",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n07.webp",
+      "id": "5a0a"
+    },
+    {
+      "masp": "n08",
+      "ten": "The Lava",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n08.webp",
+      "id": "0d2a"
+    },
+    {
+      "masp": "n09",
+      "ten": "Nhẫn cánh dơi",
+      "gia": 145000,
+      "maLoai": "1",
+      "hinh": "img/n09.webp",
+      "id": "2d11"
+    },
+    {
+      "masp": "vt01",
+      "ten": "Bộ vòng tay Bamboo ver 2",
+      "gia": 195000,
+      "maLoai": "2",
+      "hinh": "img/vt01.webp",
+      "id": "c94c"
+    },
+    {
+      "masp": "vt02",
+      "ten": "The Ciion",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt02.webp",
+      "id": "5be1"
+    },
+    {
+      "masp": "vt03",
+      "ten": "The Geteus",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt03.webp",
+      "id": "3773"
+    },
+    {
+      "masp": "vt04",
+      "ten": "Stone Ver.2",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt04.webp",
+      "id": "d2d5"
+    },
+    {
+      "masp": "vt05",
+      "ten": "The Elegant Chain",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt05.webp",
+      "id": "a077"
+    },
+    {
+      "masp": "vt06",
+      "ten": "The Old School Cross",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt06.webp",
+      "id": "3c3b"
+    },
+    {
+      "masp": "vt07",
+      "ten": "The Fadro Charm",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt07.webp",
+      "id": "ea63"
+    },
+    {
+      "masp": "vt08",
+      "ten": "The Gil",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt08.webp",
+      "id": "749c"
+    },
+    {
+      "masp": "vt09",
+      "ten": "The Cross",
+      "gia": 245000,
+      "maLoai": "2",
+      "hinh": "img/vt09.webp",
+      "id": "3fb9"
+    },
+    {
+      "masp": "dc01",
+      "ten": "Osdis Chain",
+      "gia": 245000,
+      "maLoai": "4",
+      "hinh": "img/dc01.webp",
+      "id": "b62a"
+    },
+    {
+      "masp": "dc02",
+      "ten": "Elements Necklace",
+      "gia": 245000,
+      "maLoai": "4",
+      "hinh": "img/dc02.webp",
+      "id": "28fb"
+    },
+    {
+      "masp": "dc03",
+      "ten": "Dây chuyền nhẫn kép",
+      "gia": 185000,
+      "maLoai": "4",
+      "hinh": "img/dc03.webp",
+      "id": "06bf"
+    },
+    {
+      "masp": "dc04",
+      "ten": "Spirial",
+      "gia": 185000,
+      "maLoai": "4",
+      "hinh": "img/dc04.webp",
+      "id": "4fb8"
+    },
+    {
+      "masp": "dc05",
+      "ten": "Guitar",
+      "gia": 185000,
+      "maLoai": "4",
+      "hinh": "img/dc05.webp",
+      "id": "428b"
+    },
+    {
+      "masp": "dc06",
+      "ten": "Hetas",
+      "gia": 225000,
+      "maLoai": "4",
+      "hinh": "img/dc06.webp",
+      "id": "dcb9"
+    },
+    {
+      "masp": "dc07",
+      "ten": "Cuban Mixx",
+      "gia": 195000,
+      "maLoai": "Dây chuyền",
+      "hinh": "img/dc07.webp",
+      "id": "9d7d"
+    },
+    {
+      "masp": "dc08",
+      "ten": "Bộ dây chuyền Moon and Sun",
+      "gia": 345000,
+      "maLoai": "Dây chuyền",
+      "hinh": "img/dc08.webp",
+      "id": "889b"
+    }
+  ]
 }

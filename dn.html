@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.min.css">
     <script src="js/navbar.js"></script>
-    <script src="js/slider.js"></script>
+    <script src="js/login.js"></script>
 </head>
 
 <body>
@@ -30,11 +30,10 @@
                 <li><a href="">Giỏ hàng</a></li>
             </ul>
         </nav>
-        <div class="search-box">
-            <input type="text" class="search-box__input">
-            <input type="checkbox" name="" id="">
+        <form class="search-box" id="searchForm">
+            <input type="text" class="search-box__input" id="search" placeholder="Tìm kiếm sản phẩm...">
             <button type="submit" class="search-box__btn"><i class="fas fa-search"></i></button>
-        </div>
+        </form>
         <label for="nav_check" class="hamburger">
             <div class=""></div>
             <div class=""></div>
@@ -42,26 +41,14 @@
         </label>
     </header>
     <main>
-        <div class="login_container">
-            <input type="checkbox" id="switch" checked>
-
-            <div class="signup">
-                <form>
-                    <label for="switch">Sign up</label>
-                    <input type="email" autocomplete="off" placeholder="Email">
-                    <input type="text" autocomplete="off" placeholder="Username">
-                    <input type="password" autocomplete="off" placeholder="Password">
-                    <button>Sign up</button>
-                </form>
-            </div>
-            <div class="login">
-                <form>
-                    <label for="switch">Login</label>
-                    <input type="text" autocomplete="off" placeholder="Username">
-                    <input type="password" autocomplete="off" placeholder="Password">
-                    <button>Login</button>
-                </form>
-            </div>
+        <div class="login">
+            <label>Đăng nhập</label>
+            <form id="loginForm" method="">
+                <input type="text" id="username" name="username" required placeholder="Tài khoản của bạn">
+                <input type="password" id="password" name="password" required placeholder="Mật khẩu">
+                <p style="text-align: center;">Bạn chưa có tài khoản <a href="dk.html">Đăng ký</a></p>
+                <button type="submit">Đăng nhập</button>
+            </form>
         </div>
     </main>
     <footer class="footer">

@@ -9,12 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.min.css">
     <script src="js/navbar.js"></script>
-    <script src="js/slider.js"></script>
-    <script type="module" src="js/data.js"></script>
-    <script type="module" src="js/search.js"></script>
+    <script src="js/register.js"></script>
 </head>
 
-<body onload="">
+<body>
     <header>
         <div class="logo">
             <a href="index.html" class="logo"><img src="img/logo(1).png" alt=""></a>
@@ -33,7 +31,7 @@
             </ul>
         </nav>
         <form class="search-box" id="searchForm">
-            <input type="text" class="search-box__input" placeholder="Tìm kiếm sản phẩm...">
+            <input type="text" class="search-box__input" id="search" placeholder="Tìm kiếm sản phẩm...">
             <button type="submit" class="search-box__btn"><i class="fas fa-search"></i></button>
         </form>
         <label for="nav_check" class="hamburger">
@@ -43,24 +41,17 @@
         </label>
     </header>
     <main>
-        <section id="Slider">
-            <div class="slider-container">
-                <img src="img/sl1.webp" alt="" id="hinh">
-                <div class="chuyen">
-                    <i class="fa-solid fa-angle-left" onclick="prev()"></i>
-                    <i class="fa-solid fa-angle-right" onclick="next()"></i>
-                </div>
-            </div>
-        </section>
-        <section id="listLoaiSP">
-            <h1 style="text-align: center; padding: 20px 0;">Loại sản phẩm</h1>
-            <div id="data"></div>
-        </section>
-        <section id="listSP">
-            <h1 style="text-align: center; padding: 20px 0;">Sản phẩm</h1>
-            <div id="data"></div>
-        </section>
-
+        <div class="signup">
+            <label>Đăng ký</label>
+            <form id="registrationForm">
+                <input type="text" id="username" name="username" required placeholder="Username">
+                <input type="email" id="email" name="email" required placeholder="Email">
+                <input type="password" id="password" name="password" required placeholder="Password">
+                <input type="password" id="password2" name="password2" required placeholder="Confirm Password">
+                <p style="text-align: center;">Bạn chưa có tài khoản <a href="dn.html">Đăng nhập</a></p>
+                <button type="submit">Register</button>
+            </form>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer-container">
@@ -118,8 +109,3 @@
 </body>
 
 </html>
-<script type="module">
-    import { showlisttrangsuc, showlistloaisp } from './js/app.js';
-    document.querySelector("#listSP #data").innerHTML = showlisttrangsuc();
-    document.querySelector("#listLoaiSP #data").innerHTML = await showlistloaisp();
-</script>
